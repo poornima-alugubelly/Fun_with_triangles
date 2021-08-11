@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+:root {
+	--primary-color: blue;
+	--secondary-color: aquamarine;
+}
+
+body {
+	font-family: "Red Hat Display", sans-serif;
+}
+.container {
+	margin: auto;
+	width: 20%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: var(--primary-color);
+	text-shadow: 2px 2px var(--secondary-color);
+}
+
+h2 {
+	text-align: center;
+}
+
+.back-btn {
+	display: block;
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	text-align: center;
+	width: 10%;
+	margin-left: 10rem;
+	padding: 0.2rem;
+	text-decoration: none;
+	font-weight: bold;
+}
+.main_nav {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2rem;
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	margin: 1rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	max-width: 100%;
+}
+
+.sub-container input,
+label {
+	display: block;
+	width: 80%;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: var(--primary-color);
+}
+
+.sub-container input {
+	padding: 0.3rem;
+	margin-top: 0.7rem;
+	margin-bottom: 1rem;
+	background-color: var(--secondary-color);
+}
+
+.check {
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	font-weight: bold;
+	padding: 0.3rem;
+	width: 30%;
+	margin-top: 1rem;
+	border: 2px solid var(--primary-color);
+}
+
+.output {
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+	color: var(--primary-color);
+	text-shadow: 1.5px 1.5px var(--secondary-color);
+	border: 0.1rem solid var(--primary-color);
+	text-align: center;
+}

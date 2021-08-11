@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>QuizS</title>
+	</head>
+	<body>
+		<a class="back-btn" href="./index.html">Go back</a>
+		<div class="container">
+			<form id="quiz_form" onsubmit="return false">
+				<div class="question_container">
+					<h2>
+						1. If a triangle has angles 90°, 60°, 30°. Is it a right angle
+						triangle?
+					</h2>
+					<label
+						><input
+							type="radio"
+							name="question1"
+							value="Yes"
+							required
+						/>Yes</label
+					>
+					<label><input type="radio" name="question1" value="No" />No</label>
+				</div>
+
+				<div class="question_container">
+					<h2>
+						2. The perimeter of an equilateral triangle is 15cm. What is the
+						length of one side?
+					</h2>
+					<label
+						><input
+							type="radio"
+							name="question2"
+							value="15cm"
+							required
+						/>15cm</label
+					>
+					<label><input type="radio" name="question2" value="5cm" />5cm</label>
+					<label
+						><input type="radio" name="question2" value="45cm" />45cm</label
+					>
+				</div>
+
+				<div class="question_container">
+					<h2>
+						3. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of
+						triangle?
+					</h2>
+					<label
+						><input
+							type="radio"
+							name="question3"
+							value="Equilateral"
+							required
+						/>Equilateral</label
+					>
+					<label
+						><input
+							type="radio"
+							name="question3"
+							value="Isoceles"
+						/>Isoceles</label
+					>
+					<label
+						><input
+							type="radio"
+							name="question3"
+							value="Scalene"
+						/>Scalene</label
+					>
+				</div>
+
+				<div class="question_container">
+					<h2>
+						4. If a triangle has 2 angles of 75°. What is the measure of third
+						angle in degree?
+					</h2>
+					<label
+						><input
+							type="radio"
+							name="question4"
+							value="15°"
+							required
+						/>15</label
+					>
+					<label><input type="radio" name="question4" value="45°" />45</label>
+					<label><input type="radio" name="question4" value="30°" />30</label>
+				</div>
+				<button class="check" type="submit">Submit</button>
+			</form>
+
+			<div class="output" style="display: none"></div>
+		</div>
+		<script src="./quiz.js"></script>
+	</body>
+</html>
